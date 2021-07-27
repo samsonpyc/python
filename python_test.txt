@@ -1,3 +1,8 @@
 this is abc1234
 this is send from github test two
+<<<<<<< HEAD
 this is create from git bash test two
+=======
+
+this is send from computer test three
+>>>>>>> f790a52d498cf4e96a216470877330325cc04eea
