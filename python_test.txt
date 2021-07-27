@@ -6,3 +6,9 @@ this is create from git bash test two
 
 this is send from computer test three
 >>>>>>> f790a52d498cf4e96a216470877330325cc04eea
+
+#test part two
+
+ this should only be the ase if you're amending an already-pushed commit. Generally you should never do that as you're 
+then modifying published history. In your case however, you should be able to get away with push -f, which 
+will overwrite the remote commit with your amended revision. 
