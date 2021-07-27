@@ -12,3 +12,10 @@ this is send from computer test three
  this should only be the ase if you're amending an already-pushed commit. Generally you should never do that as you're 
 then modifying published history. In your case however, you should be able to get away with push -f, which 
 will overwrite the remote commit with your amended revision. 
+
+
+#test part three
+
+yup, yo hsould not do that pushing a commit, then changing it and trying to push it again ).
+instead, you can roll back Git to your previous commit without changing the files, then creating a new commit.
+This will create a new commit with the changes you were about to amend
